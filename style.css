@@ -1,3 +1,27 @@
 @import url(minigrid.css);
 
 
+
+#main-card {
+    max-width: 380px;
+    width:75%;
+    background: yellow;
+}
+
+#location {
+    border-radius: 50px;
+}
+
+.ext-order {
+    float: left;   
+    display: inline;
+}
+
+.ext-order > li {
+    display: inline-block;
+    background: pink;
+}
+
+#phone-btn {
+    float: right;
+}
