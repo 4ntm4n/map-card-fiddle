@@ -95,11 +95,26 @@ iframe {
     box-sizing: border-box;
     
     color: white;
-    background: rgb(247, 76, 64);
+    background: rgb(243, 53, 53);
     border-bottom: 2px solid rgba(0, 0, 0, 0.452);
     border-top: 2px solid rgba(255, 255, 255, 0.479);
     border-left: 1px solid rgba(255, 255, 255, 0.479);
     border-right: 1px solid rgba(26, 26, 26, 0.479);
+}
+
+.call-now-btn:hover {
+    background: rgb(253, 38, 38);
+    transition: .2s;
+}
+
+.call-now-btn:active {
+    color: rgb(226, 226, 226);
+    background: rgb(216, 22, 22);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.479);
+    border-top: 3px solid  rgba(0, 0, 0, 0.452);
+    border-left: 1px solid rgba(26, 26, 26, 0.479);
+    border-right: 1px solid rgba(255, 255, 255, 0.479);
+    transition: .2s;
 }
 
 .fa-phone-flip {
