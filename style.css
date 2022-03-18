@@ -4,7 +4,9 @@
 #main-card {
     max-width: 350px;
     padding: 25px; 
-
+    box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius:20px 20px 2px 2px;
 }
 #main-card  h2{
 
@@ -14,7 +16,19 @@ iframe {
     width:100%; 
     height:370px;
     border-radius: 5%;
+    }
+
+#card-heading {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(223, 98, 98);
+    width:50%;
+    text-align:center;
+    border-radius: 5px;
 }
+
 
 .external-order > li{  
     display: inline-block;
@@ -24,20 +38,14 @@ iframe {
 }
 
 .order-box {
-    display: block;
-
     min-width: 165px;
 }
-
-
-
 
 .order-box img {
     border-radius:50%;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.2);
 }
   
-
 #wolt-logo {
     width: 41px;
     height :41px;
