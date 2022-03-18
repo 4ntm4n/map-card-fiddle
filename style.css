@@ -1,27 +1,46 @@
 @import url(minigrid.css);
 
 
-
 #main-card {
-    max-width: 380px;
-    width:75%;
-    background: yellow;
+    max-width: 350px;
+    padding: 25px; 
+
+}
+#main-card  h2{
+
 }
 
-#location {
-    border-radius: 50px;
+iframe { 
+    width:100%; 
+    height:370px;
+    border-radius: 5%;
 }
 
-.ext-order {
-    float: left;   
-    display: inline;
-}
-
-.ext-order > li {
+.external-order > li{  
     display: inline-block;
-    background: pink;
+    list-style: none;
+    margin: 0 20px;
+
 }
 
-#phone-btn {
-    float: right;
+.order-box {
+    display: block;
+
+    min-width: 165px;
 }
+
+
+
+
+.order-box img {
+    border-radius:50%;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.2);
+}
+  
+
+#wolt-logo {
+    width: 41px;
+    height :41px;
+}
+
+.test { background-color: black;}

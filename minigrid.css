@@ -3,27 +3,17 @@
     margin :0;
 }
 
-p {
-    line-height: 8.5em;
-    font-size: 1.2em;
-    color: rgb(241, 229, 229);
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
-}
-
 /* minimal gridsystem &copy AntonAskling2022 */
 
 .container {
-    border: 5px solid rgb(221, 220, 220);
+    border: 1px solid rgb(221, 220, 220);
     width: 100%;
-    margin: 3.125em auto;
+    margin:  auto;
     max-width: 75em;
     box-sizing: border-box;
 }
 
 .row {
-    border: red;
     overflow: hidden;
     box-sizing: border-box;
 }
